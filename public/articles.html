@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل المواعيد والمحتوى | التقويم الوطني</title>
+    <meta name="description" content="صفحة مركزية تجمع مقالات ومحتوى موقع التقويم الوطني، تشمل المواعيد الرسمية والتعليمية والصحية والرياضية في السعودية.">
+    <link rel="icon" type="image/png" href="/logo copy.png" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1319454246555804"
+         crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            background: white;
+            padding: 10px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .content h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        
+        .content h2 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin: 30px 0 15px 0;
+        }
+        
+        .content p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .article-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-right: 5px solid #4CAF50;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .article-card h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        .article-card p {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .article-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+        
+        .article-link:hover {
+            transform: scale(1.05);
+        }
+        
+        .category-section {
+            margin: 40px 0;
+        }
+        
+        .category-title {
+            background: linear-gradient(135deg, #e8f5e8 0%, #e3f2fd 100%);
+            padding: 15px 20px;
+            border-radius: 10px;
+            border-right: 5px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #e8f5e8 0%, #e3f2fd 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #4CAF50;
+            margin: 20px 0;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo copy.png" alt="شعار التقويم الوطني">
+            <h1>التقويم الوطني</h1>
+            <p>نوحّد المواعيد... ونقرّبها إليك</p>
+        </div>
+        
+        <div class="content">
+            <h1>دليل المواعيد والمحتوى</h1>
+            
+            <p>مرحباً بك في المركز الشامل لجميع المقالات والمحتوى في موقع <strong>التقويم الوطني</strong>. هنا ستجد دليلاً كاملاً لجميع المواعيد والمناسبات المهمة في المملكة العربية السعودية.</p>
+            
+            <div class="highlight">
+                <h2>📚 مكتبة شاملة للمواعيد السعودية</h2>
+                <p><strong>جميع المعلومات من مصادر رسمية موثوقة ومحدثة باستمرار</strong></p>
+            </div>
+
+            <!-- المواعيد الرسمية والحكومية -->
+            <div class="category-section">
+                <div class="category-title">
+                    <h2>🏛️ المواعيد الرسمية والحكومية</h2>
+                </div>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>💰 مواعيد صرف الرواتب</h3>
+                        <p>جدول شامل لجميع مواعيد صرف الرواتب في القطاعين الحكومي والخاص، مع التحديثات الدورية.</p>
+                        <a href="/salaries.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                    
+                    <div class="article-card">
+                        <h3>🎉 المناسبات الوطنية</h3>
+                        <p>دليل شامل للمناسبات الوطنية والرسمية مثل اليوم الوطني ويوم التأسيس والأعياد.</p>
+                        <a href="/national-events.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- التعليم والدراسة -->
+            <div class="category-section">
+                <div class="category-title">
+                    <h2>📚 التعليم والدراسة</h2>
+                </div>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>🎓 التقويم الدراسي</h3>
+                        <p>الخطة الدراسية الرسمية للعام 1446هـ مع مواعيد بداية الفصول والإجازات والاختبارات.</p>
+                        <a href="/education.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الصحة والتطعيمات -->
+            <div class="category-section">
+                <div class="category-title">
+                    <h2>⚕️ الصحة والتطعيمات</h2>
+                </div>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>💉 جدول تطعيم الأطفال</h3>
+                        <p>الجدول الرسمي لتطعيم الأطفال حسب وزارة الصحة، شامل لجميع المراحل العمرية.</p>
+                        <a href="/vaccination.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الرياضة والفعاليات -->
+            <div class="category-section">
+                <div class="category-title">
+                    <h2>⚽ الرياضة والفعاليات</h2>
+                </div>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>🏆 الفعاليات الرياضية</h3>
+                        <p>أبرز البطولات والفعاليات الرياضية في السعودية مثل الفورمولا 1 وكأس السوبر.</p>
+                        <a href="/sports.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الدعم والمساعدة -->
+            <div class="category-section">
+                <div class="category-title">
+                    <h2>❓ الدعم والمساعدة</h2>
+                </div>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <h3>🤔 الأسئلة الشائعة</h3>
+                        <p>إجابات لأكثر الأسئلة شيوعاً حول الموقع وخدماتنا وطريقة الاستخدام.</p>
+                        <a href="/faq.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                    
+                    <div class="article-card">
+                        <h3>📋 شروط الاستخدام</h3>
+                        <p>الشروط والأحكام الخاصة باستخدام موقع التقويم الوطني والالتزامات القانونية.</p>
+                        <a href="/terms.html" class="article-link">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <h3>🔄 تحديثات مستمرة</h3>
+                <p>نحرص على تحديث جميع المقالات والمعلومات بانتظام لضمان حصولك على أحدث المواعيد والمعلومات الرسمية.</p>
+            </div>
+            
+            <a href="/" class="back-btn">← العودة للصفحة الرئيسية</a>
+        </div>
+        
+        <div class="footer">
+            <p>© <span id="currentYear"></span> التقويم الوطني. جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

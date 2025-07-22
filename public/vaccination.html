@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول تطعيم الأطفال حسب وزارة الصحة | التقويم الوطني</title>
+    <meta name="description" content="الجدول الوطني لتطعيم الأطفال حسب تعليمات وزارة الصحة السعودية، شامل للمراحل العمرية واللقاحات المطلوبة حتى سن 6 سنوات.">
+    <link rel="icon" type="image/png" href="/logo copy.png" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1319454246555804"
+         crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+            border-radius: 50%;
+            background: white;
+            padding: 10px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .content h1 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        
+        .content h2 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin: 30px 0 15px 0;
+        }
+        
+        .content p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .vaccination-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .vaccination-table th,
+        .vaccination-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+        
+        .vaccination-table th {
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            font-weight: bold;
+        }
+        
+        .vaccination-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .age-group {
+            background: #e8f5e8;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #e8f5e8 0%, #e3f2fd 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #4CAF50;
+            margin: 20px 0;
+        }
+        
+        .warning {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #4CAF50 0%, #2196F3 100%);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 30px;
+            transition: transform 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .vaccination-table {
+                font-size: 0.8rem;
+            }
+            
+            .vaccination-table th,
+            .vaccination-table td {
+                padding: 8px 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/logo copy.png" alt="شعار التقويم الوطني">
+            <h1>التقويم الوطني</h1>
+            <p>نوحّد المواعيد... ونقرّبها إليك</p>
+        </div>
+        
+        <div class="content">
+            <h1>جدول تطعيم الأطفال - وزارة الصحة</h1>
+            
+            <p>يقدم لك <strong>التقويم الوطني</strong> الجدول الرسمي لتطعيم الأطفال المعتمد من وزارة الصحة السعودية، والذي يضمن حماية طفلك من الأمراض المعدية.</p>
+            
+            <div class="highlight">
+                <h2>💉 أهمية التطعيم في الوقت المحدد</h2>
+                <p><strong>التطعيم في المواعيد المحددة يضمن أقصى حماية لطفلك ويساهم في الصحة العامة للمجتمع</strong></p>
+            </div>
+
+            <h2>📅 جدول التطعيمات الأساسية</h2>
+            <table class="vaccination-table">
+                <thead>
+                    <tr>
+                        <th>العمر</th>
+                        <th>اللقاح</th>
+                        <th>الأمراض المستهدفة</th>
+                        <th>طريقة الإعطاء</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="age-group">
+                        <td colspan="4">عند الولادة</td>
+                    </tr>
+                    <tr>
+                        <td>عند الولادة</td>
+                        <td>BCG</td>
+                        <td>السل</td>
+                        <td>حقن في الجلد</td>
+                    </tr>
+                    <tr>
+                        <td>عند الولادة</td>
+                        <td>التهاب الكبد ب</td>
+                        <td>التهاب الكبد الوبائي ب</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">شهرين</td>
+                    </tr>
+                    <tr>
+                        <td>شهرين</td>
+                        <td>الخماسي</td>
+                        <td>الدفتيريا، السعال الديكي، الكزاز، شلل الأطفال، المستدمية النزلية</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>شهرين</td>
+                        <td>المكورات الرئوية</td>
+                        <td>الالتهاب الرئوي والتهاب السحايا</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>شهرين</td>
+                        <td>الروتا</td>
+                        <td>الإسهال الفيروسي</td>
+                        <td>بالفم</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">4 أشهر</td>
+                    </tr>
+                    <tr>
+                        <td>4 أشهر</td>
+                        <td>الخماسي (الجرعة الثانية)</td>
+                        <td>الدفتيريا، السعال الديكي، الكزاز، شلل الأطفال، المستدمية النزلية</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>4 أشهر</td>
+                        <td>المكورات الرئوية (الجرعة الثانية)</td>
+                        <td>الالتهاب الرئوي والتهاب السحايا</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>4 أشهر</td>
+                        <td>الروتا (الجرعة الثانية)</td>
+                        <td>الإسهال الفيروسي</td>
+                        <td>بالفم</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">6 أشهر</td>
+                    </tr>
+                    <tr>
+                        <td>6 أشهر</td>
+                        <td>الخماسي (الجرعة الثالثة)</td>
+                        <td>الدفتيريا، السعال الديكي، الكزاز، شلل الأطفال، المستدمية النزلية</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>6 أشهر</td>
+                        <td>التهاب الكبد ب (الجرعة الثانية)</td>
+                        <td>التهاب الكبد الوبائي ب</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">12 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>12 شهر</td>
+                        <td>الحصبة والحصبة الألمانية والنكاف</td>
+                        <td>الحصبة، الحصبة الألمانية، النكاف</td>
+                        <td>حقن تحت الجلد</td>
+                    </tr>
+                    <tr>
+                        <td>12 شهر</td>
+                        <td>المكورات الرئوية (الجرعة الثالثة)</td>
+                        <td>الالتهاب الرئوي والتهاب السحايا</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">18 شهر</td>
+                    </tr>
+                    <tr>
+                        <td>18 شهر</td>
+                        <td>الخماسي (الجرعة المنشطة)</td>
+                        <td>الدفتيريا، السعال الديكي، الكزاز، شلل الأطفال، المستدمية النزلية</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                    <tr>
+                        <td>18 شهر</td>
+                        <td>الحصبة والحصبة الألمانية والنكاف (الجرعة الثانية)</td>
+                        <td>الحصبة، الحصبة الألمانية، النكاف</td>
+                        <td>حقن تحت الجلد</td>
+                    </tr>
+                    
+                    <tr class="age-group">
+                        <td colspan="4">4-6 سنوات</td>
+                    </tr>
+                    <tr>
+                        <td>4-6 سنوات</td>
+                        <td>الثلاثي البكتيري وشلل الأطفال</td>
+                        <td>الدفتيريا، السعال الديكي، الكزاز، شلل الأطفال</td>
+                        <td>حقن في العضل</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="warning">
+                <h3>⚠️ تنبيهات مهمة</h3>
+                <ul>
+                    <li>يجب الالتزام بالمواعيد المحددة لضمان فعالية اللقاح</li>
+                    <li>في حالة تأخير أي جرعة، استشر طبيب الأطفال</li>
+                    <li>احتفظ بسجل التطعيمات لطفلك</li>
+                    <li>أبلغ الطبيب عن أي حساسية أو أعراض جانبية</li>
+                </ul>
+            </div>
+            
+            <div class="highlight">
+                <h3>📋 معلومات إضافية</h3>
+                <ul>
+                    <li>التطعيمات متوفرة مجاناً في جميع المراكز الصحية</li>
+                    <li>يمكن الحصول على التطعيمات في المستشفيات الخاصة</li>
+                    <li>تطبيق "صحتي" يذكرك بمواعيد التطعيمات</li>
+                    <li>للاستفسارات: اتصل بالرقم الموحد 937</li>
+                </ul>
+            </div>
+            
+            <a href="/" class="back-btn">← العودة للصفحة الرئيسية</a>
+        </div>
+        
+        <div class="footer">
+            <p>© <span id="currentYear"></span> التقويم الوطني. جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
